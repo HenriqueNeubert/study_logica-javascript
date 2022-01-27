@@ -1,3 +1,8 @@
+//EXERCICIOS QUE EU NÃO FIZ
+// 5 - 
+
+////////////////////////////////////////////////////////////////////////////
+
 //exercicio do exemplo 1 (exerc_resp_alg_mar2007)
 
 // var a = 2;
@@ -178,14 +183,102 @@
 //exercicio do exemplo 5 (exerc_resp_alg_mar2007)
 
 
-
 //exercicio do exemplo 5 (exerc_resp_alg_mar2007)
 
 //exercicio do exemplo 6 (exerc_resp_alg_mar2007)
 
+// var height = 10;
+// var base = 20;
+// var result = height * base;
+// console.log(result); //200
 
+// var height = 5;
+// var base = 10;
+// var result = height * base;
+// console.log(result); //50
 
 //exercicio do exemplo 6 (exerc_resp_alg_mar2007)
+
+//exercicio do exemplo 7 (exerc_resp_alg_mar2007)
+
+// var ano = 365;
+// var mes = 12;
+// var dias = 30;
+// var anoAtual = 2022;
+// var anoNasc = 1997;
+
+// var idadeAno = anoAtual - anoNasc;
+// var idadeMes = idadeAno * mes;
+// var idadeDia = idadeAno * ano;
+
+// console.log(idadeAno, idadeMes, idadeDia);
+
+//exercicio do exemplo 7 (exerc_resp_alg_mar2007)
+
+//exercicio do exemplo 8 (exerc_resp_alg_mar2007)
+
+// var eleitores = 500; //100%
+// var votosBrancos = 30;//6%
+// var votosNulos = 15;//3%
+// var validos = 455; //91%
+
+// // 500 - 100
+// //30 - ?
+// var percBrancos = ( votosBrancos * 100 ) / eleitores;
+// console.log(percBrancos);
+
+// // 500 - 100
+// //15 - ?
+// var percNulos = ( votosNulos * 100 ) / eleitores;
+// console.log(percNulos);
+
+// // 500 - 100
+// //455 - ?
+// var percValidos = ( validos * 100 ) / eleitores;
+// console.log(percValidos);
+
+// console.log( percValidos + percNulos + percBrancos );
+
+//exercicio do exemplo 8 (exerc_resp_alg_mar2007)
+
+//exercicio do exemplo 9 (exerc_resp_alg_mar2007)
+
+// var salario = 1553.00;//$
+// var reajuste = 5;//%
+// var valor = ( salario * reajuste ) / 100;
+// var valorComSalario = valor + salario;
+// //salario - 100
+// // _?_  - 3
+
+// console.log('Valor de Reajuste ' + valor + 'R$');
+// console.log('Valor incorporado no sáraio ' + valorComSalario + 'R$');
+
+//exercicio do exemplo 9 (exerc_resp_alg_mar2007)
+
+//exercicio do exemplo 10 (exerc_resp_alg_mar2007)
+
+// var porcDistribuidor = 28; //%
+// var impostos = 45;//% 
+
+// var custoFabrica = porcDistribuidor + impostos;
+// console.log('Porcentual do Custo de Fábrica é de ' + ( 100 - custoFabrica ) + '%');
+// console.log('Porcentual do distribuidor ' + porcDistribuidor + '%');
+// console.log('Porcentual dos impostos ' + impostos + '%');
+
+//exercicio do exemplo 10 (exerc_resp_alg_mar2007)
+
+//exercicio do exemplo 11 (exerc_resp_alg_mar2007)
+
+var salario = 0;
+var comissao = 0;
+var valVendas = 5;//% 
+
+//exercicio do exemplo 11 (exerc_resp_alg_mar2007)
+
+
+
+
+
 
 
 
