@@ -453,29 +453,55 @@
 //altura não declarada
 //peso deveria estar em ula variavel
 
-var sexo = 'F';
-var altura = 1.70;
-var peso = 63;
+// var sexo = 'F';
+// var altura = 1.70;
+// var peso = 83;
 
-var formMasc = (peso * altura) - 58;
-var formFem = (peso * altura) - 44.7;
+// var formMasc = (peso * altura) - 58;
+// var formFem = (peso * altura) - 44.7;
 
-if( sexo == 'M' ){
-      var pesoIdeal =  formMasc;
-}else{
-      var pesoIdeal =  formFem;
-}
+// if( sexo == 'M' ){
+//       var pesoIdeal =  formMasc;
+// }else{ 
+//       var pesoIdeal =  formFem;
+// }
 
-console.log(pesoIdeal = parseFloat(pesoIdeal.toFixed(2)) );
-
+// console.log(pesoIdeal = parseFloat(pesoIdeal.toFixed(2)) );
 
 //exercicio do exemplo 23 (exerc_resp_alg_mar2007)
 
 //exercicio do exemplo 24 (exerc_resp_alg_mar2007)
 
-      
+      var salFixo = ' '; // $
+      var valorVendas = 1850; // $
+      var comissaoA = 3; // % até 1500
+      var comissaoB = 5 // % acima de 1500 
+
+      if(valorVendas <= 1500){
+            console.log('entrei no 3%');
+            var salFixo = ((valorVendas * 3) / 100) + valorVendas;
+            console.log(salFixo);
+      }
+
+      if(valorVendas > 1500){
+            console.log('entrei no 5%');
+            var salFixo = ((valorVendas * 5) / 100) + valorVendas;
+            console.log(salFixo);
+      }
+
+      /*
+      1500 - 100
+      ? - 3  
+      */ 
 
 //exercicio do exemplo 24 (exerc_resp_alg_mar2007)
+
+//exercicio do exemplo 25 (exerc_resp_alg_mar2007)
+
+
+
+//exercicio do exemplo 25 (exerc_resp_alg_mar2007)
+
 
 
 
