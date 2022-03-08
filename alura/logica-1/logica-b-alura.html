@@ -23,29 +23,60 @@
 	// var button = document.querySelector('button');
 	// button.onclick = verifica;
 	
-	var segredo = [2, 5, 7, 9];
-	var input = document.querySelector('input');
-	input.focus();
+	// var segredo = [2, 5, 7, 9];
+	// var input = document.querySelector('input');
+	// input.focus();
 
-	function verifica(){
+	// function verifica(){
 
-		var achou = false;
+	// 	var achou = false;
 
-		for(var posicao = 0; posicao < segredo.length; posicao++){
-			if(input.value == segredo[posicao]){
-				alert('Acertou!!')
-				achou = true;
-				break;
-			}		
-		}
-		if(achou == false){
-			alert('Errou!!');			
-		}
+	// 	for(var posicao = 0; posicao < segredo.length; posicao++){
+	// 		if(input.value == segredo[posicao]){
+	// 			alert('Acertou!!')
+	// 			achou = true;
+	// 			break;
+	// 		}		
+	// 	}
+	// 	if(achou == false){
+	// 		alert('Errou!!');			
+	// 	}
 
+	// }
+
+	// var button = document.querySelector('button');
+	// button.onclick = verifica;
+	
+	// var jogadores = ["Saladino", "Cage", "Xur", "Rayson"];
+	// for( var i = 0; i < jogadores.length; i++) {
+	// 	alert(jogadores[i]);
+	// }
+
+	// var letras = ['A', 'B', 'C', 'D'];
+	// 	for( var i = 0; i < letras.length; i++ ) {
+	// 	alert(letras[i]);
+	// } 
+
+	function sorteia(){
+		return Math.round(Math.random() * 10 )	;	
 	}
 
-	var button = document.querySelector('button');
-	button.onclick = verifica;
+	function sorteiaNumeros(quantidade){
+		var segredos = [];
+		var numero = 1;
+		while(numero <= quantidade){
+			segredos.push(sorteia());
+			numero++;
+		}
+		return segredos;
+	}
+
+	var segredos = sorteiaNumeros(5);
+	console.log(segredos);
+
 	
-	//parei em 9.2
+	// for(var $i = 0; $i < 5; $i++){
+	// 	segredos.push(sorteia());
+	// }
+	//parei em 9.8 em 11min
 </script>
