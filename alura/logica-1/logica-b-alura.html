@@ -5,20 +5,47 @@
 
 <script>
 
-	var segredo = 5;
-	var input = document.querySelector('input');
+	// var segredo = Math.round(Math.random() * 5);
+	// var segredo = [1, 5, 7, 8];
+	// var input = document.querySelector('input');
+	// input.focus();
 
-	function verifica(){		
-		if(input.value == segredo) {
-			alert("Você Acertou, parabéns.");
-		}else{
-			alert("Você Errou.");
+	// function verifica(){		
+	// 	if(input.value == segredo) {
+	// 		alert("Você Acertou, parabéns.");
+	// 	}else{
+	// 		alert("Você Errou.");
+	// 	}
+	// 	input.value = ' ';
+	// 	input.focus();
+	// }
+
+	// var button = document.querySelector('button');
+	// button.onclick = verifica;
+	
+	var segredo = [2, 5, 7, 9];
+	var input = document.querySelector('input');
+	input.focus();
+
+	function verifica(){
+
+		var achou = false;
+
+		for(var posicao = 0; posicao < segredo.length; posicao++){
+			if(input.value == segredo[posicao]){
+				alert('Acertou!!')
+				achou = true;
+				break;
+			}		
 		}
-		input.value = '';
+		if(achou == false){
+			alert('Errou!!');			
+		}
+
 	}
 
 	var button = document.querySelector('button');
 	button.onclick = verifica;
-		
-	//parei em 8.5
+	
+	//parei em 9.2
 </script>
