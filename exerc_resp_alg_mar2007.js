@@ -50,12 +50,12 @@
 
 //(C)
 
-      // a = 10;
-      // b = 20;
-      // c = a;
-      // b = c;
-      // a = b;
-      // console.log(a, b, c);// 20 10 10 errei
+// a = 10;
+// b = 20;
+// c = a;
+// b = c;
+// a = b;
+// console.log(a, b, c);// 20 10 10 errei
 
 //(C)
 
@@ -73,24 +73,24 @@
 
 //(E)
 
-      // a = 10;
-      // b =5;
-      // c = a + b;
-      // b = 20;
-      // a = 10;
-      // console.log(a, b ,c);//10 20 15
+// a = 10;
+// b =5;
+// c = a + b;
+// b = 20;
+// a = 10;
+// console.log(a, b ,c);//10 20 15
 
 //(E)
 
 //(F)
 
-      // x = 1;
-      // y = 2;
-      // z = y - x;
-      // console.log(z);//1
-      // x = 5;
-      // y = x + z;
-      // console.log(x, y ,z);//5 6 1
+// x = 1;
+// y = 2;
+// z = y - x;
+// console.log(z);//1
+// x = 5;
+// y = x + z;
+// console.log(x, y ,z);//5 6 1
 
 //(F)
 
@@ -472,51 +472,60 @@
 
 //exercicio do exemplo 24 (exerc_resp_alg_mar2007)
 
-      var salFixo = ' '; // $
-      var valorVendas = 1850; // $
-      var comissaoA = 3; // % até 1500
-      var comissaoB = 5 // % acima de 1500 
+// var salFixo = ' '; // $
+// var valorVendas = 1850; // $
+// var comissaoA = 3; // % até 1500
+// var comissaoB = 5 // % acima de 1500 
 
-      if(valorVendas <= 1500){
-            console.log('entrei no 3%');
-            var salFixo = ((valorVendas * 3) / 100) + valorVendas;
-            console.log(salFixo);
-      }
+// if(valorVendas <= 1500){
+//       console.log('entrei no 3%');
+//       var salFixo = ((valorVendas * 3) / 100) + valorVendas;
+//       console.log(salFixo);
+// }
 
-      if(valorVendas > 1500){
-            console.log('entrei no 5%');
-            var salFixo = ((valorVendas * 5) / 100) + valorVendas;
-            console.log(salFixo);
-      }
+// if(valorVendas > 1500){
+//       console.log('entrei no 5%');
+//       var salFixo = ((valorVendas * 5) / 100) + valorVendas;
+//       console.log(salFixo);
+// }
 
-      /*
-      1500 - 100
-      ? - 3  
-      */ 
+/*
+1500 - 100
+? - 3  
+*/
 
 //exercicio do exemplo 24 (exerc_resp_alg_mar2007)
 
 //exercicio do exemplo 25 (exerc_resp_alg_mar2007)
 
+var conta = 245;
+var saldo = 950;
+var debito = 1500.32;
+var credito = 300;
+var saldoAtual = saldo - debito + credito;
+
+console.log();
+if (saldoAtual >= 0) {
+      console.log('Saldo Positivo, seu saldo é de ', +saldoAtual + ' reais');
+} else {
+      let final = saldoAtual.toFixed(2)
+      console.log(typeof (final))
+      console.log('Saldo Negativo, seu saldo é de ', + final.replace('.', ',') + ' reais');
+}
+
+//?SE saldoAtual >= 0; = 'SALDO POSITIVO'  
+//?SE NÃO 'SALDO NEGATIVO' 
 
 
 //exercicio do exemplo 25 (exerc_resp_alg_mar2007)
 
+//!comando ( node nomedoarquivo.js )
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//? operadores de comparação
+/*
+<    menor
+<= menor igual
+>    maior
+>= maior igual
+*/
+//? operadores de comparação

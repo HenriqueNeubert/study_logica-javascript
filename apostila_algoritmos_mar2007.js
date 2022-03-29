@@ -74,7 +74,7 @@
 
 //exercicio do exemplo 13 (apostila_algoritmos_mar2007)
 
-
+//!comando ( node nomedoarquivo.js )
 
       // console.log('page 18.6');
       //loops
