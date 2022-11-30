@@ -1,0 +1,26 @@
+*{
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #222;
+}
+
+.center{
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.list_dropdown{
+  padding: 50px 0;
+}
+
+.list_dropdown .list_dropdown-item p, .list_dropdown .list_dropdown-item h3 {
+  padding: 10px;
+}
+
+.list_dropdown .list_dropdown-item h3{
+  background: #444;
+}
